@@ -4,9 +4,11 @@
 
 ## Overview
 
-ProjectX is a classified advertisement posting website. The application would feature a simple and elegant user interface to manage the classifieds. It would also feature a smart search that would serve them with precise and relevant information they're looking for based on the full-text search approach to be used.
+ProjectX is a classified advertisement posting website. The application would feature a simple and elegant user interface to manage the classifieds. The users could log in using their email or use social sign-on options such as Facebook and Google.
 
-Technically, this project shall be implemented using Java Spring Framework in the backend and Angular for the frontend. To maintain the contract for these, we would be following API-first approach, preferably with OpenAPI tools. We shall also use IAM/IDP for user management and access controls. For the search feature, we may implement ElasticSearch for real-time full-text search and search analytics. The project shall be implemented using all modern principles of software development from TDD to CI/CD.
+This project has been implemented using Java Spring Framework in the backend and Angular for the frontend. To maintain the contract for these, we have used the API-first approach, with OpenAPI specification and its generators. We have used IAM/IDP for user management and access controls. The project also uses GitHub Actions for CI/CD pipeline that runs build and deploy jobs.
+
+The project is deployed to Google Compute Engine's VM. The test server to which the application is deployed can be accessed at http://35.196.123.107:8090. At the moment, the social sign-on doesn't work in this server as Facebook requires HTTPS connection and Google doesn't allow IP address as the authorized JavaScript origins.
 
 ## Some Important Links
 
@@ -16,6 +18,8 @@ Technically, this project shall be implemented using Java Spring Framework in th
 
 - [Project Proposal](https://github.com/aksth/GVSU-CIS641-ProjectX/blob/main/docs/proposal.md)
 - [Prototype Software Requirements Specification](https://github.com/aksth/GVSU-CIS641-ProjectX/blob/main/docs/software_requirements_specification.md)
+- [Mid-term Project Presentation](https://github.com/aksth/GVSU-CIS641-ProjectX/blob/main/docs/mid-term-presentation.pdf)
+- [Software Requirements Specification](https://github.com/aksth/GVSU-CIS641-ProjectX/blob/main/docs/software_requirements_specification_final.md)
 
 [Artifacts](https://github.com/aksth/GVSU-CIS641-ProjectX/tree/main/artifacts)
 
