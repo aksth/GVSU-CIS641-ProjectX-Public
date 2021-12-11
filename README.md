@@ -8,7 +8,7 @@ ProjectX is a classified advertisement posting website. The application would fe
 
 This project has been implemented using Java Spring Framework in the backend and Angular for the frontend. To maintain the contract for these, we have used the API-first approach, with OpenAPI specification and its generators. We have used IAM/IDP for user management and access controls. The project also uses GitHub Actions for CI/CD pipeline that runs build and deploy jobs.
 
-The project is deployed to Google Compute Engine's VM. The test server to which the application is deployed can be accessed at http://35.196.123.107:8090. At the moment, the social sign-on doesn't work in this server as Facebook requires HTTPS connection and Google doesn't allow IP address as the authorized JavaScript origins.
+The project is deployed to Google Compute Engine's VM. The test server to which the application is deployed can be accessed at [http://35.196.123.107:8090](http://35.196.123.107:8090). At the moment, the social sign-on doesn't work in this server as Facebook requires HTTPS connection and Google doesn't allow IP address as the authorized JavaScript origins.
 
 ## Some Important Links
 
